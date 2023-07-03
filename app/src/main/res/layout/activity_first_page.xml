@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Table headers -->
+        <TableRow>
+            <TextView
+                android:id="@+id/textViewIdHeader"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/header_id"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewNameHeader"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/header_name"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewDescriptionHeader"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/header_description"
+                android:textStyle="bold" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

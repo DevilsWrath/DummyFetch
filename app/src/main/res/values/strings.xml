@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">DummyFetch</string>
+    <string name="header_id">ID</string>
+    <string name="header_name">firstName</string>
+    <string name="header_description">lastName</string>
+</resources>
